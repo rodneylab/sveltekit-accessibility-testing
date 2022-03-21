@@ -14,13 +14,16 @@
     "generate:manifest": "node ./generate-manifest.js",
     "generate:sitemap": "node ./generate-sitemap.js",
     "prettier:check": "prettier --check --plugin-search-dir=. .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test:a11y": "pa11y-ci --sitemap 'http://localhost:3030/sitemap.xml' --sitemap-find 'https://example.com' --sitemap-replace 'http://localhost:3030'",
+    "test": "playwright test"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^16.2.1",
     "@fontsource/lato": "^4.5.3",
     "@fontsource/lora": "^4.5.4",
     "@fontsource/source-sans-pro": "^4.5.4",
+    "@playwright/test": "^1.20.0",
     "@rodneylab/sveltekit-components": "^0.2.11",
     "@sveltejs/adapter-static": "^1.0.0-next.29",
     "@sveltejs/kit": "^1.0.0-next.301",
@@ -34,6 +37,8 @@
     "husky": "^7.0.4",
     "mdsvex": "^0.10.5",
     "object-hash": "^3.0.0",
+    "pa11y": "^6.1.1",
+    "pa11y-ci": "^3.0.1",
     "postcss": "^8.4.12",
     "postcss-html": "^1.3.0",
     "prettier": "~2.5.1",
