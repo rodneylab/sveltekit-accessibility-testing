@@ -15,7 +15,7 @@
     "generate:sitemap": "node ./generate-sitemap.js",
     "prettier:check": "prettier --check --plugin-search-dir=. .",
     "prepare": "husky install",
-    "test:a11y": "pa11y-ci --sitemap 'http://localhost:3000/sitemap.xml' --sitemap-find 'https://example.com' --sitemap-replace 'http://localhost:3030'",
+    "test:a11y": "pa11y-ci --sitemap 'http://localhost:3000/sitemap.xml' --sitemap-find 'https://example.com' --sitemap-replace 'http://localhost:3000'",
     "test": "playwright test"
   },
   "devDependencies": {
