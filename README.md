@@ -11,7 +11,7 @@
 
 # sveltekit-accessibility-testing
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/rodneylab/sveltekit-accessibility-testing)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/rodneylab/sveltekit-accessibility-testing
 
 Example code for creating SEO markup for an FAQ page in SvelteKit. The code accompanies the <a aria-label="Open Rodney Lab blog post on Svelte Kit accessibility testing" href="https://rodneylab.com/sveltekit-accessibility-testing/">post on SvelteKit accessibility testing</a>. If you have any questions, please drop a comment at the bottom of that page.
 
