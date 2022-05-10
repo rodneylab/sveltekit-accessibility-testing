@@ -1,6 +1,8 @@
 {
   "name": "sveltekit-accessibility-testing",
   "version": "0.0.1",
+  "license": "BSD-3-Clause",
+  "description": "SvelteKit Accessibility Testing: see how you can use Playwright to run automated axe accessibility & htmlcs tests in your Svelte CI workflow.",
   "scripts": {
     "dev": "svelte-kit dev --port 3000",
     "build": "npm run generate:manifest && svelte-kit build",
@@ -61,15 +63,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rodneylab/sveltekit-blog-mdx"
+    "url": "https://github.com/rodneylab/sveltekit-accessibility-testing"
   },
   "bugs": {
-    "url": "https://github.com/rodneylab/sveltekit-blog-mdx/issues"
+    "url": "https://github.com/rodneylab/sveltekit-accessibility-testing/issues"
   },
-  "type": "module",
-  "dependencies": {
-    "s": "^1.0.0",
-    "spnpm": "^1.0.0",
-    "uninstall": "^0.0.0"
-  }
+  "type": "module"
 }
