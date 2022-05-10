@@ -5,6 +5,7 @@ specifiers:
   '@fontsource/lato': ^4.5.3
   '@fontsource/lora': ^4.5.4
   '@fontsource/source-sans-pro': ^4.5.4
+  '@iconify/svelte': ^2.2.1
   '@playwright/test': ^1.20.0
   '@rodneylab/sveltekit-components': ^0.2.11
   '@sveltejs/adapter-static': ^1.0.0-next.29
@@ -37,7 +38,6 @@ specifiers:
   stylelint-scss: ^4.2.0
   svelte: ^3.46.4
   svelte-check: ^2.4.6
-  svelte-feather-icons: ^3.5.1
   svelte-preprocess: ^4.10.4
   svelte-preprocess-import-assets: ^0.1.6
   uninstall: ^0.0.0
@@ -54,6 +54,7 @@ devDependencies:
   '@fontsource/lato': 4.5.3
   '@fontsource/lora': 4.5.4
   '@fontsource/source-sans-pro': 4.5.4
+  '@iconify/svelte': 2.2.1
   '@playwright/test': 1.20.0
   '@rodneylab/sveltekit-components': 0.2.11
   '@sveltejs/adapter-static': 1.0.0-next.29
@@ -84,7 +85,6 @@ devDependencies:
   stylelint-scss: 4.2.0_stylelint@14.6.0
   svelte: 3.46.4
   svelte-check: 2.4.6_fuuaiqneuwf7zn7xmrggxjvdma
-  svelte-feather-icons: 3.5.1
   svelte-preprocess: 4.10.4_fuuaiqneuwf7zn7xmrggxjvdma
   svelte-preprocess-import-assets: 0.1.6_svelte@3.46.4
   vanilla-lazyload: 17.6.1
@@ -825,6 +825,10 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify/svelte/2.2.1:
+    resolution: {integrity: sha512-eWZq8CRrr3WfnKAj8SWknfE3S/d+j/AzEcypeJaHurS1s4zTdFnkjATcFa8lerGtcX0PAtXiVL94tbIEd69N+w==}
     dev: true
 
   /@jest/types/27.5.1:
@@ -4323,12 +4327,6 @@ packages:
       - sass
       - stylus
       - sugarss
-    dev: true
-
-  /svelte-feather-icons/3.5.1:
-    resolution: {integrity: sha512-hYDo7/D24+RiWDHWtBq7rPFHIsKLlq0nqY6FJ7R6b3k/FfzgAgW69gM/xYzx7nG/Kt9CH7pVz4y5RR7YDn+KVg==}
-    dependencies:
-      svelte: 3.46.4
     dev: true
 
   /svelte-hmr/0.14.11_svelte@3.46.4:
